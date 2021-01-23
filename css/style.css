@@ -1,0 +1,50 @@
+body {
+    background-color: #FDDE7E;
+}
+
+.container {
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    padding: 0 190px;
+    align-items: center;
+    margin: 110px 0 0 0;
+}
+
+.container .item:nth-child(2) {
+    height: 500px;
+}
+
+.item {
+    background-color: #fff;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 45px 80px;
+    border-radius: 5px;
+    height: 430px;
+}
+
+.cupStyle {
+    width: 135px;
+}
+
+.priceStyle {
+    font-size: 60px;
+    font-family: sans-serif;
+    letter-spacing: 4px;
+    color: #02995B;
+}
+
+.titleStyle {
+    font-size: 65px;
+    font-family: sans-serif;
+}
+
+.subtitleStyle {
+    font-size: 20px;
+    font-family: sans-serif;
+    width: 175px;
+    text-align: center;
+}
